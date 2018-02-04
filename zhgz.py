@@ -1,10 +1,9 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-#!/usr/bin/python
 
 import urllib
 import urllib2
 import re
-import thread
 import time
 from subprocess import call
 
@@ -85,8 +84,8 @@ while True:
 	( update_page22_ck,update_page_2_ck ) = jkzh('https://xueqiu.com/P/ZH989316', "纳履而去的组合滟滟随波千万里-价值", number , update_page22_ck ,update_page_2_ck)
 	checkzh( update_page22_ck, update_page_2_ck,  "纳履而去的组合滟滟随波千万里-价值" )
 
-	( update_page33_ck,update_page_3_ck ) = jkzh('https://xueqiu.com/P/ZH002754', "十三飞的组合一飞冲天-价值成长", number , update_page33_ck ,update_page_3_ck)
-	checkzh( update_page33_ck, update_page_3_ck,  "十三飞的组合一飞冲天-价值成长" )
+	#( update_page33_ck,update_page_3_ck ) = jkzh('https://xueqiu.com/P/ZH002754', "十三飞的组合一飞冲天-价值成长", number , update_page33_ck ,update_page_3_ck)
+	#checkzh( update_page33_ck, update_page_3_ck,  "十三飞的组合一飞冲天-价值成长" )
 
 	( update_page44_ck,update_page_4_ck ) = jkzh('https://xueqiu.com/P/ZH003851', "丹书铁卷的组合铁券1号-价值", number , update_page44_ck ,update_page_4_ck)
 	checkzh( update_page44_ck, update_page_4_ck,  "丹书铁卷的组合铁券1号-价值" )
